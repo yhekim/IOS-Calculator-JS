@@ -1,13 +1,13 @@
 # Project-003 : Calculator (JS-03)
 
-- https://yhekim.github.io/Find-The-Number-Game-JS/
+- https://vigorous-perlman-3e6bc6.netlify.app/
 
-- https://admiring-almeida-55bd45.netlify.app
+- https://yhekim.github.io/IOS-Calculator-JS/
 
 ## Description
 Project aims to create a calculator.
 
-![gif](https://raw.githubusercontent.com/yhekim/Find-The-Number-Game-JS/main/find%20the%20number.gif)
+![gif](https://raw.githubusercontent.com/yhekim/IOS-Calculator-JS/main/ios-calculator.gif)
 
 ## Problem Statement
 
