@@ -233,8 +233,8 @@
         
         @media only screen and (max-width: 600px) {
             .calculator {
-                padding: 0 0.3rem 1rem 0.3rem;
-                width: 70%;
+                padding: 0 0.2rem 1rem 0.3rem;
+                width: 275px;
                 height: 85%;
                 background-color: black;
                 display: grid;
@@ -253,7 +253,7 @@
             .screen {
                 position: absolute;
                 bottom: 0.3rem;
-                right: 1.2rem;
+                right: 1.5rem;
                 font-size: 1.5rem;
             }
             .keys {
@@ -268,7 +268,7 @@
                 margin: 0.08rem;
                 border-radius: 50%;
                 color: #fff;
-                font-size: 0.8rem;
+                font-size: 0.6rem;
                 text-align: center;
                 align-items: center;
             }
