@@ -211,7 +211,7 @@
                 position: absolute;
                 bottom: 0.3rem;
                 right: 1.5rem;
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
             .keys {
                 width: 100%;
@@ -222,7 +222,7 @@
                 grid-template-rows: repeat(5, 1fr);
             }
             button {
-                margin: 0.4rem;
+                margin: 0.2rem;
                 border-radius: 50%;
                 color: #fff;
                 font-size: 0.8rem;
@@ -232,11 +232,43 @@
         }
         
         @media only screen and (max-width: 600px) {
-            .button {
-                margin: 0.2rem;
+            .calculator {
+                padding: 0 0.3rem 1rem 0.3rem;
+                width: 70%;
+                height: 85%;
+                background-color: black;
+                display: grid;
+                grid-template-areas: "top" "keys";
+                grid-template-columns: 1fr;
+                grid-template-rows: 1.4fr 3fr;
+            }
+            .top {
+                width: 100%;
+                height: 100%;
+                grid-area: top;
+                margin: 0 1rem;
+                color: #fff;
+                position: relative;
+            }
+            .screen {
+                position: absolute;
+                bottom: 0.3rem;
+                right: 1.2rem;
+                font-size: 1.5rem;
+            }
+            .keys {
+                width: 100%;
+                height: 100%;
+                grid-area: keys;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(5, 1fr);
+            }
+            button {
+                margin: 0.08rem;
                 border-radius: 50%;
                 color: #fff;
-                font-size: 1rem;
+                font-size: 0.8rem;
                 text-align: center;
                 align-items: center;
             }
